@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import MINUTES_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-minutes-in-day@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-time-minutes-in-day/tags). For example,
+
+```javascript
 import MINUTES_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-minutes-in-day@v0.1.0-deno/mod.js';
 ```
 
@@ -77,7 +82,7 @@ var bool = ( MINUTES_IN_DAY === 1440 );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import roundn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-roundn@deno/mod.js';
-import MINUTES_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-minutes-in-day@v0.1.0-deno/mod.js';
+import MINUTES_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-minutes-in-day@deno/mod.js';
 
 var d;
 var m;
