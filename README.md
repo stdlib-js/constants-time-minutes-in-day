@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import MINUTES_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-minutes-in-day@esm/index.mjs';
+import MINUTES_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-minutes-in-day@v0.3.1-esm/index.mjs';
 ```
 
 #### MINUTES_IN_DAY
@@ -82,7 +82,7 @@ var bool = ( MINUTES_IN_DAY === 1440 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import roundn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-roundn@esm/index.mjs';
-import MINUTES_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-minutes-in-day@esm/index.mjs';
+import MINUTES_IN_DAY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-time-minutes-in-day@v0.3.1-esm/index.mjs';
 
 var d;
 var m;
